@@ -1,0 +1,31 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+li {
+
+}
+
+li a {
+    padding: 10px;
+    margin: 2px;
+    width: 100px;
+    text-decoration: none;
+    color: crimson;
+    display: block;
+    border: maroon solid medium;
+}
+
+li a:hover {
+    color: darksalmon;
+    background-color: crimson;
+}
+
+.content {
+    border: lightpink solid thick;
+    float: left;
+    padding: 50px;
+}
