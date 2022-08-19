@@ -8,7 +8,6 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-
 @app.route('/<param>')
 def content(param):
     if param == 'button_1':
